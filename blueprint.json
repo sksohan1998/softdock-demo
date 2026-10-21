@@ -6,8 +6,8 @@
   "login": true,
   "steps": [
     { "step": "setSiteOptions", "options": { "blogname": "Softdock", "blogdescription": "Free and open-source software. Every download goes to the developer's official site.", "permalink_structure": "/%postname%/" } },
-    { "step": "installPlugin", "pluginData": { "resource": "url", "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-core.zip?v=1.7.0" }, "options": { "activate": true } },
-    { "step": "installTheme", "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-theme.zip?v=1.4.0" }, "options": { "activate": true } },
+    { "step": "installPlugin", "pluginData": { "resource": "url", "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-core.zip?v=1.7.1" }, "options": { "activate": true } },
+    { "step": "installTheme", "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-theme.zip?v=1.4.1" }, "options": { "activate": true } },
     { "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; softdock_register_types(); softdock_ensure_platforms(); update_option('comment_moderation', 1); softdock_import_samples(); flush_rewrite_rules();" }
   ]
 }
