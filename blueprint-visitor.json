@@ -22,7 +22,7 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-core.zip?v=1.9.0"
+        "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-core.zip?v=1.10.0"
       },
       "options": {
         "activate": true
@@ -32,7 +32,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-theme.zip?v=1.6.0"
+        "url": "https://raw.githubusercontent.com/sksohan1998/softdock-demo/main/softdock-theme.zip?v=1.7.0"
       },
       "options": {
         "activate": true
